@@ -1,0 +1,19 @@
+/target/
+# maven ignore
+target/
+
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+*.class
+
+cms/webapp-cms/WEB-INF/classes/
