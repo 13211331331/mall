@@ -13,7 +13,7 @@
     <!-- 通过ContextLoaderListener的父类ContextLoader的第120行发现CONFIG_LOCATION_PARAM固定为contextConfigLocation -->  
 	<context-param>                                                 <!-- Sping应用上下文参数：声明应用范围内的初始化参数。 context-param元素声明应用范围内的初始化参数。 -->
 		<param-name>contextConfigLocation</param-name>              <!-- 环境配置位置  -->
-		<param-value>classpath:spring/spring-context.xml</param-value>
+		<param-value>classpath:spring_web/spring-context.xml</param-value>
 	</context-param>
 	
 	<!-- 2.实例化Spring容器 -->  
@@ -111,7 +111,7 @@
 		<!-- contextConfigLocation不是必须的， 如果不配置contextConfigLocation， springmvc的配置文件默认在：WEB-INF/servlet的name+"-servlet.xml" -->
 		<init-param>                                             <!--定义Servlet的初始化参数(包括参数名和参数值)一个<servlet>元素里可以有多个<init-param>元素。在Servlet类中通过ServletConfig类的来访问这些参数。   -->
 			<param-name>contextConfigLocation</param-name>  	 <!-- 环境配置位置 -->
-			<param-value>classpath:springmvc/spring-mvc.xml</param-value>
+			<param-value>classpath:springmvc_web/spring-mvc.xml</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>        			 <!-- <load-on-startup>1</load-on-startup>是启动顺序，指定当前Web应用启动时装载Servlet的次序。让这个Servlet随Servletp容器一起启动。 -->
 		<async-supported>true</async-supported>

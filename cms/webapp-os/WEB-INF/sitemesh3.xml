@@ -27,7 +27,7 @@
     
     <!-- 自定义 tag 规则 -->
     <content-processor>
-      <tag-rule-bundle class="org.pussinboots.morning.os.common.tag.ExtHtmlTagRuleBundle" />
+      <tag-rule-bundle class="os.common.tag.ExtHtmlTagRuleBundle" />
     </content-processor>
     
 </sitemesh>
