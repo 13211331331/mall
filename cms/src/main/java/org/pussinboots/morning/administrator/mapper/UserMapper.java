@@ -13,8 +13,8 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
 /**
  * 
 * 项目名称：morning-administrator-service   
-* 类名称：UserMapper   
-* 类描述：User / 管理员表 数据访问层接口   
+* 类名称：WebUserMapper
+* 类描述：WebUser / 管理员表 数据访问层接口
 * 创建人：陈星星   
 * 创建时间：2017年3月31日 下午5:21:11   
 *

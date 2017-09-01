@@ -222,14 +222,14 @@ public class ServletUtils {
 	 * 获取当前用户游览器信息
 	 */
 	public static String getHeader() {
-		return getRequest().getHeader("User-Agent");
+		return getRequest().getHeader("WebUser-Agent");
 	}
 	
 	/**
 	 * 获取当前用户游览器型号
 	 */
 	public static String getUserBrowser() {
-		UserAgent userAgent = UserAgent.parseUserAgentString(getRequest().getHeader("User-Agent"));
+		UserAgent userAgent = UserAgent.parseUserAgentString(getRequest().getHeader("WebUser-Agent"));
 		Browser browser = userAgent.getBrowser();
 		return browser.toString();
 	}
@@ -238,7 +238,7 @@ public class ServletUtils {
 	 * 获取当前用户系统型号
 	 */
 	public static String getUserOperatingSystem() {
-		UserAgent userAgent = UserAgent.parseUserAgentString(getRequest().getHeader("User-Agent"));
+		UserAgent userAgent = UserAgent.parseUserAgentString(getRequest().getHeader("WebUser-Agent"));
 		OperatingSystem operatingSystem = userAgent.getOperatingSystem();
 		return operatingSystem.toString();
 	}

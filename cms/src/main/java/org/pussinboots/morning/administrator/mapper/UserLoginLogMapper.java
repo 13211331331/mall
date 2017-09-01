@@ -12,8 +12,8 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
 /**
  * 
 * 项目名称：morning-administrator-service   
-* 类名称：UserLoginLogMapper   
-* 类描述：UserLoginLog / 管理员登陆表 数据访问层接口      
+* 类名称：WebUserLoginLogMapper
+* 类描述：WebUserLoginLog / 管理员登陆表 数据访问层接口
 * 创建人：陈星星   
 * 创建时间：2017年3月31日 下午5:43:54   
 *

@@ -31,7 +31,7 @@ import com.baomidou.mybatisplus.service.impl.ServiceImpl;
  * 
 * 项目名称：morning-administrator-service   
 * 类名称：UserServiceImpl   
-* 类描述：User / 管理员表 业务逻辑层接口实现   
+* 类描述：WebUser / 管理员表 业务逻辑层接口实现
 * 创建人：陈星星   
 * 创建时间：2017年3月31日 下午5:20:43   
 *

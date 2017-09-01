@@ -117,7 +117,7 @@ public class SysLogAspect {
 				sysLog.setUserIp(ServletUtils.getIpAddr());
 				sysLog.setUrl(request.getRequestURI());
 				sysLog.setMethod(request.getMethod());
-				sysLog.setUserAgent(request.getHeader("User-Agent"));
+				sysLog.setUserAgent(request.getHeader("WebUser-Agent"));
 				sysLog.setSpendTime((int) (endTime - startTime));
 				logService.insert(sysLog);
 			}

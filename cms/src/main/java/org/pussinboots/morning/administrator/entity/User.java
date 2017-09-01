@@ -12,8 +12,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 /**
  * 
 * 项目名称：morning-administrator-facade   
-* 类名称：User   
-* 类描述：User / 管理员表 实体类    
+* 类名称：WebUser
+* 类描述：WebUser / 管理员表 实体类
 * 创建人：陈星星   
 * 创建时间：2017年3月31日 下午4:44:43   
 *

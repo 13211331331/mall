@@ -11,8 +11,8 @@ import java.io.Serializable;
 /**
  * 
 * 项目名称：morning-administrator-facade   
-* 类名称：UserLoginLog   
-* 类描述：UserLoginLog / 管理员登陆表 实体类       
+* 类名称：WebUserLoginLog
+* 类描述：WebUserLoginLog / 管理员登陆表 实体类
 * 创建人：陈星星   
 * 创建时间：2017年3月31日 下午5:36:16   
 *
